@@ -47,10 +47,14 @@ TARGET_INIT_VENDOR_LIB := libinit_bacon
 
 TARGET_WCNSS_MAC_PREFIX := e8bba8
 
+WITH_LZMA_OTA := true
+
 # Workaround for factory issue
 BOARD_VOLD_CRYPTFS_MIGRATE := true
 
 BOARD_NFC_CHIPSET := pn547
+
+AUDIO_FEATURE_LOW_LATENCY_PRIMARY := true
 
 # inherit from the proprietary version
 -include vendor/oneplus/bacon/BoardConfigVendor.mk

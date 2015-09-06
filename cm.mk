@@ -42,5 +42,7 @@ TARGET_UNOFFICIAL_BUILD_ID := Sultan
 
 ## Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=oneplus/bacon/A0001:5.0.2/LRX22G/YNG1TAS0YL:user/release-keys PRIVATE_BUILD_DESC="bacon-user 5.0.2 LRX22G YNG1TAS0YL release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=oneplus/bacon/A0001:5.1.1/LMY48B/YOG4PAS1N0:user/release-keys \
+    PRIVATE_BUILD_DESC="bacon-user 5.1.1 LMY48B YOG4PAS1N0 release-keys"
 endif
